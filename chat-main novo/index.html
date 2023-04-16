@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atendimento</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Atendimento ao Cliente</h1>
+      </div>
+      <div class="chat">
+        <div class="chatBox">
+          <div class="chatAtendente">
+            <h5 class="labelAtendente">Atendente diz:</h5>
+            <h4 class="h4Atendente">
+              Obrigado por entrar em contato com nossa equipe logo mais, um
+              atendente irá entrar em contato com você!
+            </h4>
+            <h5 class="labelAtendente">Atendente diz:</h5>
+            <h4 class="h4Atendente">Olá, como posso ajudar você?</h4>
+          </div>
+          <div class="chatUsuario">
+            <ul id="lista-das-mensagem"  style="list-style: none;">
+              <li  style="list-style: none;"></li>
+            </ul>
+          </div>
+        </div>
+
+        <form id="formAdd" action="index.html" method="post" class="mensagem">
+          <input
+            class="input"
+            type="text"
+            id="mensagem"
+            name="fname"
+            placeholder="Digite sua mensagem"
+          />
+          <button class="button">Enviar</button>
+        </form>
+    </div>
+      <div class="creditos">
+        <h3>CRIADO POR:</h3>
+        <h4 class="nomes">Guilherme Marques Silveira</h4>
+      </div>
+    </div>
+    <script src="lista.js"></script>
+  </body>
+</html>
